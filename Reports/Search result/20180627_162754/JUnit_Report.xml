@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search result" time="416" tests="8" failures="0" errors="0">
+   <testsuite name="Search result" tests="8" failures="0" errors="0" time="416" timestamp="2018-06-27 16:28:09" hostname="User - WIN-EUOG03KNFOQ" id="Test Suites/Search result">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\Heb2\\Reports\\Search result\\20180627_162754"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\Heb2\\Reports\\Search result\\20180627_162754\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - WIN-EUOG03KNFOQ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.200.54"/>
+         <property name="sessionId" value="f425d6b239f4debaa4ca3ae6660a08f5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basic Test cases/Nothing found for after the user is registered" classname="Test Cases/Basic Test cases/Nothing found for after the user is registered" status="PASSED">
+         <system-out><![CDATA[2018-06-27 16:28:12 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Nothing found for after the user is registered: Test Cases/Basic Test cases/Nothing found for after the user is registered
+
+2018-06-27 16:28:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:28:15 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-27 16:28:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 16:28:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 16:28:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-27 16:28:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-27 16:28:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:28:55 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:28:55 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:29:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-27 16:29:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-27 16:29:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:29:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login true' is clicked on
+
+2018-06-27 16:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login true' is clicked on
+
+2018-06-27 16:29:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/form' is present
+
+2018-06-27 16:29:06 - [MESSAGE][PASSED] - Object 'Object Repository/form' is present
+
+2018-06-27 16:29:06 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-27 16:29:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-27 16:29:06 - [TEST_STEP][PASSED] - setText: Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-27 16:29:08 - [MESSAGE][PASSED] - Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-27 16:29:08 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-27 16:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-27 16:29:08 - [TEST_STEP][PASSED] - setText: Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-27 16:29:09 - [MESSAGE][PASSED] - Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-27 16:29:09 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-27 16:29:09 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-27 16:29:09 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-27 16:29:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-27 16:29:19 - [TEST_STEP][PASSED] - setText: Text 'фф' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:29:27 - [MESSAGE][PASSED] - Text 'фф' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:29:27 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-27 16:29:32 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-27 16:29:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/nothingfound' is present
+
+2018-06-27 16:29:33 - [MESSAGE][PASSED] - Object 'Object Repository/nothingfound' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Nothing Found For" classname="Test Cases/Basic Test cases/Nothing Found For" status="PASSED">
+         <system-out><![CDATA[2018-06-27 16:29:33 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Nothing Found For: Test Cases/Basic Test cases/Nothing Found For
+
+2018-06-27 16:29:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:29:35 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-27 16:29:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 16:29:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-27 16:29:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 16:29:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-27 16:29:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-27 16:29:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:29:49 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:29:49 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:29:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-27 16:29:55 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-27 16:29:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:29:55 - [TEST_STEP][PASSED] - setText: Text 'фф' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:29:57 - [MESSAGE][PASSED] - Text 'фф' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:29:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-27 16:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-27 16:30:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/nothingfound' is present
+
+2018-06-27 16:30:02 - [MESSAGE][PASSED] - Object 'Object Repository/nothingfound' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search by full name when the user is registered" classname="Test Cases/Basic Test cases/Search by full name when the user is registered" status="PASSED">
+         <system-out><![CDATA[2018-06-27 16:30:02 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Search by full name when the user is registered: Test Cases/Basic Test cases/Search by full name when the user is registered
+
+2018-06-27 16:30:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:30:04 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-27 16:30:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 16:30:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-27 16:30:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 16:30:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-27 16:30:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-27 16:30:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:30:19 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:30:19 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:30:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-27 16:30:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-27 16:30:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:30:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login true' is clicked on
+
+2018-06-27 16:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login true' is clicked on
+
+2018-06-27 16:30:27 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/form' is present
+
+2018-06-27 16:30:29 - [MESSAGE][PASSED] - Object 'Object Repository/form' is present
+
+2018-06-27 16:30:29 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-27 16:30:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-27 16:30:30 - [TEST_STEP][PASSED] - setText: Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-27 16:30:31 - [MESSAGE][PASSED] - Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-27 16:30:31 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-27 16:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-27 16:30:31 - [TEST_STEP][PASSED] - setText: Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-27 16:30:32 - [MESSAGE][PASSED] - Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-27 16:30:32 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-27 16:30:32 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-27 16:30:32 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-27 16:30:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-27 16:30:42 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-27 16:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-27 16:30:50 - [TEST_STEP][PASSED] - setText: Text 'apple juice' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:30:51 - [MESSAGE][PASSED] - Text 'apple juice' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:30:51 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-27 16:30:58 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-27 16:30:58 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ'
+
+2018-06-27 16:31:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search by not full name when the user is registered" classname="Test Cases/Basic Test cases/Search by not full name when the user is registered" status="PASSED">
+         <system-out><![CDATA[2018-06-27 16:31:01 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Search by not full name when the user is registered: Test Cases/Basic Test cases/Search by not full name when the user is registered
+
+2018-06-27 16:31:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:31:03 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-27 16:31:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 16:31:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-27 16:31:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 16:31:12 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-27 16:31:13 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-27 16:31:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:31:22 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:31:22 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:31:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-27 16:31:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-27 16:31:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:31:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login true' is clicked on
+
+2018-06-27 16:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login true' is clicked on
+
+2018-06-27 16:31:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/form' is present
+
+2018-06-27 16:31:36 - [MESSAGE][PASSED] - Object 'Object Repository/form' is present
+
+2018-06-27 16:31:36 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-27 16:31:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-27 16:31:36 - [TEST_STEP][PASSED] - setText: Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-27 16:31:37 - [MESSAGE][PASSED] - Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-27 16:31:37 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-27 16:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-27 16:31:38 - [TEST_STEP][PASSED] - setText: Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-27 16:31:38 - [MESSAGE][PASSED] - Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-27 16:31:38 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-27 16:31:39 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-27 16:31:39 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-27 16:31:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-27 16:31:49 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-27 16:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-27 16:31:59 - [TEST_STEP][PASSED] - setText: Text 'apple juic' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:32:01 - [MESSAGE][PASSED] - Text 'apple juic' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:32:01 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-27 16:32:09 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-27 16:32:09 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ'
+
+2018-06-27 16:32:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search by SKU when the user is registered" classname="Test Cases/Basic Test cases/Search by SKU when the user is registered" status="PASSED">
+         <system-out><![CDATA[2018-06-27 16:32:12 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Search by SKU when the user is registered: Test Cases/Basic Test cases/Search by SKU when the user is registered
+
+2018-06-27 16:32:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:32:14 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-27 16:32:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 16:32:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-27 16:32:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 16:32:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-27 16:32:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-27 16:32:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:32:28 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:32:28 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:32:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-27 16:32:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-27 16:32:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:32:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login true' is clicked on
+
+2018-06-27 16:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login true' is clicked on
+
+2018-06-27 16:32:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/form' is present
+
+2018-06-27 16:32:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-27 16:32:39 - [MESSAGE][PASSED] - Object 'Object Repository/form' is present
+
+2018-06-27 16:32:39 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-27 16:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-27 16:32:39 - [TEST_STEP][PASSED] - setText: Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-27 16:32:40 - [MESSAGE][PASSED] - Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-27 16:32:40 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-27 16:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-27 16:32:41 - [TEST_STEP][PASSED] - setText: Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-27 16:32:42 - [MESSAGE][PASSED] - Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-27 16:32:42 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-27 16:32:42 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-27 16:32:42 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-27 16:32:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-27 16:32:52 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-27 16:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-27 16:32:58 - [TEST_STEP][PASSED] - setText: Text '436209' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:32:59 - [MESSAGE][PASSED] - Text '436209' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:32:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-27 16:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-27 16:33:05 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Vitamin C-500' is: 'NOW Vitamin C-500 mg Orange Chewable Tablets,100 CT'
+
+2018-06-27 16:33:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Vitamin C-500' is: 'NOW Vitamin C-500 mg Orange Chewable Tablets,100 CT']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search by SKU" classname="Test Cases/Basic Test cases/Search by SKU" status="PASSED">
+         <system-out><![CDATA[2018-06-27 16:33:07 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Search by SKU: Test Cases/Basic Test cases/Search by SKU
+
+2018-06-27 16:33:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:33:09 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-27 16:33:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 16:33:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-27 16:33:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 16:33:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-27 16:33:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-27 16:33:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:33:27 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:33:27 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:33:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-27 16:33:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-27 16:33:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:33:35 - [TEST_STEP][PASSED] - setText: Text '436209' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:33:37 - [MESSAGE][PASSED] - Text '436209' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:33:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-27 16:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-27 16:33:41 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Vitamin C-500' is: 'NOW Vitamin C-500 mg Orange Chewable Tablets,100 CT'
+
+2018-06-27 16:33:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Vitamin C-500' is: 'NOW Vitamin C-500 mg Orange Chewable Tablets,100 CT']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search full name" classname="Test Cases/Basic Test cases/Search full name" status="PASSED">
+         <system-out><![CDATA[2018-06-27 16:33:43 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Search full name: Test Cases/Basic Test cases/Search full name
+
+2018-06-27 16:33:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:33:46 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-27 16:33:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 16:33:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-27 16:33:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 16:33:51 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-27 16:33:53 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-27 16:33:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:34:00 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:34:00 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:34:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-27 16:34:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-27 16:34:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:34:07 - [TEST_STEP][PASSED] - setText: Text 'apple juice' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:34:11 - [MESSAGE][PASSED] - Text 'apple juice' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:34:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-27 16:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-27 16:34:23 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ'
+
+2018-06-27 16:34:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search not full name" classname="Test Cases/Basic Test cases/Search not full name" status="PASSED">
+         <system-out><![CDATA[2018-06-27 16:34:24 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Search not full name: Test Cases/Basic Test cases/Search not full name
+
+2018-06-27 16:34:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:34:26 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-27 16:34:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 16:34:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-27 16:34:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 16:34:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-27 16:34:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-27 16:34:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:34:40 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-27 16:34:40 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-27 16:34:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-27 16:34:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-27 16:34:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-27 16:34:48 - [TEST_STEP][PASSED] - setText: Text 'apple juic' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:34:51 - [MESSAGE][PASSED] - Text 'apple juic' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-27 16:34:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-27 16:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-27 16:35:03 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ'
+
+2018-06-27 16:35:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-27 16:28:09 - [TEST_SUITE][PASSED] - Search result: Test Cases/Basic Test cases/Search not full name]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

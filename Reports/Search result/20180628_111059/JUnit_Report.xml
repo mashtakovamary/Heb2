@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search result" time="297" tests="6" failures="2" errors="0">
+   <testsuite name="Search result" tests="6" failures="2" errors="0" time="297" timestamp="2018-06-28 11:11:09" hostname="User - WIN-EUOG03KNFOQ" id="Test Suites/Search result">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\Heb2\\Reports\\Search result\\20180628_111059"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\Heb2\\Reports\\Search result\\20180628_111059\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\Katalon Studio\\Heb2\\Reports\\Search result\\20180628_111059\\1530173693035.png, C:\\Users\\User\\Katalon Studio\\Heb2\\Reports\\Search result\\20180628_111059\\1530173712044.png"/>
+         <property name="hostName" value="User - WIN-EUOG03KNFOQ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="49bb2c1ac0086c160b9cab368294917c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basic Test cases/Nothing found for after the user is registered" classname="Test Cases/Basic Test cases/Nothing found for after the user is registered" status="PASSED">
+         <system-out><![CDATA[2018-06-28 11:11:11 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Nothing found for after the user is registered: Test Cases/Basic Test cases/Nothing found for after the user is registered
+
+2018-06-28 11:11:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:11:13 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-28 11:11:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-28 11:11:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-28 11:11:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-28 11:11:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-28 11:11:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:11:46 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:11:46 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:11:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-28 11:11:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-28 11:11:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:11:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login true' is clicked on
+
+2018-06-28 11:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login true' is clicked on
+
+2018-06-28 11:11:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/form' is present
+
+2018-06-28 11:11:56 - [MESSAGE][PASSED] - Object 'Object Repository/form' is present
+
+2018-06-28 11:11:56 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-28 11:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-28 11:11:56 - [TEST_STEP][PASSED] - setText: Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-28 11:11:57 - [MESSAGE][PASSED] - Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-28 11:11:57 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-28 11:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-28 11:11:58 - [TEST_STEP][PASSED] - setText: Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-28 11:11:58 - [MESSAGE][PASSED] - Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-28 11:11:58 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-28 11:11:59 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-28 11:11:59 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-28 11:12:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-28 11:12:09 - [TEST_STEP][PASSED] - setText: Text 'фф' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:12:09 - [MESSAGE][PASSED] - Text 'фф' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:12:10 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-28 11:12:16 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-28 11:12:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/nothingfound' is present
+
+2018-06-28 11:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/nothingfound' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Nothing Found For" classname="Test Cases/Basic Test cases/Nothing Found For" status="PASSED">
+         <system-out><![CDATA[2018-06-28 11:12:17 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Nothing Found For: Test Cases/Basic Test cases/Nothing Found For
+
+2018-06-28 11:12:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:12:18 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-28 11:12:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-28 11:12:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-28 11:12:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-28 11:12:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-28 11:12:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-28 11:12:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:12:30 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:12:30 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:12:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-28 11:12:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-28 11:12:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:12:36 - [TEST_STEP][PASSED] - setText: Text 'фф' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:12:36 - [MESSAGE][PASSED] - Text 'фф' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:12:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-28 11:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-28 11:12:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/nothingfound' is present
+
+2018-06-28 11:12:40 - [MESSAGE][PASSED] - Object 'Object Repository/nothingfound' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search by full name when the user is registered" classname="Test Cases/Basic Test cases/Search by full name when the user is registered" status="PASSED">
+         <system-out><![CDATA[2018-06-28 11:12:40 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Search by full name when the user is registered: Test Cases/Basic Test cases/Search by full name when the user is registered
+
+2018-06-28 11:12:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:12:41 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-28 11:12:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-28 11:12:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-28 11:12:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-28 11:12:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-28 11:12:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-28 11:12:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:12:55 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:12:55 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:13:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-28 11:13:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-28 11:13:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:13:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login true' is clicked on
+
+2018-06-28 11:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login true' is clicked on
+
+2018-06-28 11:13:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/form' is present
+
+2018-06-28 11:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/form' is present
+
+2018-06-28 11:13:03 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-28 11:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-28 11:13:04 - [TEST_STEP][PASSED] - setText: Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-28 11:13:04 - [MESSAGE][PASSED] - Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-28 11:13:04 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-28 11:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-28 11:13:04 - [TEST_STEP][PASSED] - setText: Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-28 11:13:05 - [MESSAGE][PASSED] - Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-28 11:13:05 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-28 11:13:05 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-28 11:13:05 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-28 11:13:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-28 11:13:15 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-28 11:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-28 11:13:20 - [TEST_STEP][PASSED] - setText: Text 'apple juice' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:13:20 - [MESSAGE][PASSED] - Text 'apple juice' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:13:20 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-28 11:13:26 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-28 11:13:26 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ'
+
+2018-06-28 11:13:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search by not full name when the user is registered" classname="Test Cases/Basic Test cases/Search by not full name when the user is registered" status="PASSED">
+         <system-out><![CDATA[2018-06-28 11:13:28 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Search by not full name when the user is registered: Test Cases/Basic Test cases/Search by not full name when the user is registered
+
+2018-06-28 11:13:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:13:29 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-28 11:13:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-28 11:13:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-28 11:13:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-28 11:13:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-28 11:13:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-28 11:13:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:13:43 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:13:43 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:13:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-28 11:13:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-28 11:13:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:13:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login true' is clicked on
+
+2018-06-28 11:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login true' is clicked on
+
+2018-06-28 11:13:48 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/form' is present
+
+2018-06-28 11:13:51 - [MESSAGE][PASSED] - Object 'Object Repository/form' is present
+
+2018-06-28 11:13:51 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-28 11:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-28 11:13:51 - [TEST_STEP][PASSED] - setText: Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-28 11:13:51 - [MESSAGE][PASSED] - Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-28 11:13:51 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-28 11:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-28 11:13:52 - [TEST_STEP][PASSED] - setText: Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-28 11:13:52 - [MESSAGE][PASSED] - Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-28 11:13:52 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-28 11:13:52 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-28 11:13:52 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-28 11:14:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-28 11:14:02 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-28 11:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-28 11:14:07 - [TEST_STEP][PASSED] - setText: Text 'apple juic' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:14:08 - [MESSAGE][PASSED] - Text 'apple juic' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:14:08 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-28 11:14:13 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/input_q' is submitted
+
+2018-06-28 11:14:13 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ'
+
+2018-06-28 11:14:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search by SKU when the user is registered" classname="Test Cases/Basic Test cases/Search by SKU when the user is registered" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type=&quot;submit&quot; title=&quot;Search&quot; class=&quot;action search&quot; disabled=&quot;&quot;>...&lt;/button> is not clickable at point (1122, 150). Other element would receive the click: &lt;input id=&quot;search&quot; type=&quot;text&quot; name=&quot;q&quot; value=&quot;&quot; placeholder=&quot;What can we help you find?&quot; class=&quot;input-text active&quot; maxlength=&quot;128&quot; role=&quot;combobox&quot; aria-haspopup=&quot;false&quot; aria-autocomplete=&quot;both&quot; autocomplete=&quot;off&quot; data-block=&quot;autocomplete-form&quot;>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 257df3b4ca227c2a1fb8aa8dfef71441)"/>
+         <system-out><![CDATA[2018-06-28 11:14:15 - [TEST_CASE][FAILED] - Test Cases/Basic Test cases/Search by SKU when the user is registered: Test Cases/Basic Test cases/Search by SKU when the user is registered FAILED because (of) Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" title="Search" class="action search" disabled="">...</button> is not clickable at point (1122, 150). Other element would receive the click: <input id="search" type="text" name="q" value="" placeholder="What can we help you find?" class="input-text active" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" data-block="autocomplete-form">
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 257df3b4ca227c2a1fb8aa8dfef71441)
+
+2018-06-28 11:14:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:14:16 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-28 11:14:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-28 11:14:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-28 11:14:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-28 11:14:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-28 11:14:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-28 11:14:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:14:28 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:14:28 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:14:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-28 11:14:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-28 11:14:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:14:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login true' is clicked on
+
+2018-06-28 11:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login true' is clicked on
+
+2018-06-28 11:14:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/form' is present
+
+2018-06-28 11:14:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-28 11:14:35 - [MESSAGE][PASSED] - Object 'Object Repository/form' is present
+
+2018-06-28 11:14:35 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-28 11:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_username' is focused
+
+2018-06-28 11:14:35 - [TEST_STEP][PASSED] - setText: Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-28 11:14:37 - [MESSAGE][PASSED] - Text 'xenu@amail.club' is set on object 'Object Repository/Heb/input_username'
+
+2018-06-28 11:14:37 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-28 11:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_password' is focused
+
+2018-06-28 11:14:37 - [TEST_STEP][PASSED] - setText: Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-28 11:14:38 - [MESSAGE][PASSED] - Text 'milochka1996' is set on object 'Object Repository/Heb/input_password'
+
+2018-06-28 11:14:38 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-28 11:14:38 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Heb/Submitbutton' is submitted
+
+2018-06-28 11:14:38 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-28 11:14:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-28 11:14:48 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-28 11:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/input_q' is focused
+
+2018-06-28 11:14:52 - [TEST_STEP][PASSED] - setText: Text '436209' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:14:52 - [MESSAGE][PASSED] - Text '436209' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:14:52 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" title="Search" class="action search" disabled="">...</button> is not clickable at point (1122, 150). Other element would receive the click: <input id="search" type="text" name="q" value="" placeholder="What can we help you find?" class="input-text active" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" data-block="autocomplete-form">
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 257df3b4ca227c2a1fb8aa8dfef71441)
+
+2018-06-28 11:14:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" title="Search" class="action search" disabled="">...</button> is not clickable at point (1122, 150). Other element would receive the click: <input id="search" type="text" name="q" value="" placeholder="What can we help you find?" class="input-text active" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" data-block="autocomplete-form">
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 257df3b4ca227c2a1fb8aa8dfef71441)
+[[ATTACHMENT|C:\\Users\\User\\Katalon Studio\\Heb2\\Reports\\Search result\\20180628_111059\\1530173693035.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-28 11:14:15 - [TEST_CASE][FAILED] - Test Cases/Basic Test cases/Search by SKU when the user is registered: Test Cases/Basic Test cases/Search by SKU when the user is registered FAILED because (of) Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" title="Search" class="action search" disabled="">...</button> is not clickable at point (1122, 150). Other element would receive the click: <input id="search" type="text" name="q" value="" placeholder="What can we help you find?" class="input-text active" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" data-block="autocomplete-form">
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 257df3b4ca227c2a1fb8aa8dfef71441)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search by SKU" classname="Test Cases/Basic Test cases/Search by SKU" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type=&quot;submit&quot; title=&quot;Search&quot; class=&quot;action search&quot; disabled=&quot;&quot;>...&lt;/button> is not clickable at point (1139, 149). Other element would receive the click: &lt;input id=&quot;search&quot; type=&quot;text&quot; name=&quot;q&quot; value=&quot;&quot; placeholder=&quot;What can we help you find?&quot; class=&quot;input-text active&quot; maxlength=&quot;128&quot; role=&quot;combobox&quot; aria-haspopup=&quot;false&quot; aria-autocomplete=&quot;both&quot; autocomplete=&quot;off&quot; data-block=&quot;autocomplete-form&quot;>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1681f9c7f598ec5d80c4f354cae578d7)"/>
+         <system-out><![CDATA[2018-06-28 11:14:54 - [TEST_CASE][FAILED] - Test Cases/Basic Test cases/Search by SKU: Test Cases/Basic Test cases/Search by SKU FAILED because (of) Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" title="Search" class="action search" disabled="">...</button> is not clickable at point (1139, 149). Other element would receive the click: <input id="search" type="text" name="q" value="" placeholder="What can we help you find?" class="input-text active" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" data-block="autocomplete-form">
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1681f9c7f598ec5d80c4f354cae578d7)
+
+2018-06-28 11:14:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:14:54 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-28 11:14:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-28 11:14:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-28 11:14:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-28 11:14:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-28 11:15:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-28 11:15:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:15:06 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:15:06 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:15:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-28 11:15:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-28 11:15:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:15:11 - [TEST_STEP][PASSED] - setText: Text '436209' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:15:11 - [MESSAGE][PASSED] - Text '436209' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:15:11 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" title="Search" class="action search" disabled="">...</button> is not clickable at point (1139, 149). Other element would receive the click: <input id="search" type="text" name="q" value="" placeholder="What can we help you find?" class="input-text active" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" data-block="autocomplete-form">
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1681f9c7f598ec5d80c4f354cae578d7)
+
+2018-06-28 11:15:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" title="Search" class="action search" disabled="">...</button> is not clickable at point (1139, 149). Other element would receive the click: <input id="search" type="text" name="q" value="" placeholder="What can we help you find?" class="input-text active" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" data-block="autocomplete-form">
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1681f9c7f598ec5d80c4f354cae578d7)
+[[ATTACHMENT|C:\\Users\\User\\Katalon Studio\\Heb2\\Reports\\Search result\\20180628_111059\\1530173712044.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-28 11:14:54 - [TEST_CASE][FAILED] - Test Cases/Basic Test cases/Search by SKU: Test Cases/Basic Test cases/Search by SKU FAILED because (of) Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" title="Search" class="action search" disabled="">...</button> is not clickable at point (1139, 149). Other element would receive the click: <input id="search" type="text" name="q" value="" placeholder="What can we help you find?" class="input-text active" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" data-block="autocomplete-form">
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1681f9c7f598ec5d80c4f354cae578d7)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search full name" classname="Test Cases/Basic Test cases/Search full name" status="PASSED">
+         <system-out><![CDATA[2018-06-28 11:15:12 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Search full name: Test Cases/Basic Test cases/Search full name
+
+2018-06-28 11:15:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:15:14 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-28 11:15:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-28 11:15:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-28 11:15:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-28 11:15:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-28 11:15:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-28 11:15:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:15:28 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:15:28 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:15:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-28 11:15:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-28 11:15:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:15:35 - [TEST_STEP][PASSED] - setText: Text 'apple juice' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:15:36 - [MESSAGE][PASSED] - Text 'apple juice' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:15:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-28 11:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-28 11:15:40 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ'
+
+2018-06-28 11:15:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic Test cases/Search not full name" classname="Test Cases/Basic Test cases/Search not full name" status="PASSED">
+         <system-out><![CDATA[2018-06-28 11:15:42 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/Search not full name: Test Cases/Basic Test cases/Search not full name
+
+2018-06-28 11:15:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:15:43 - [TEST_CASE][PASSED] - Test Cases/Basic Test cases/SelectStoreBasicForAllCases: Test Cases/Basic Test cases/SelectStoreBasicForAllCases
+
+2018-06-28 11:15:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-28 11:15:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-28 11:15:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-28 11:15:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-28 11:15:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-28 11:15:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:15:53 - [MESSAGE][PASSED] - Navigate to 'https://heb:Toyou123!@qa.cert.hebtoyou.net' successfully
+
+2018-06-28 11:15:53 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/a_Shop' is double clicked on
+
+2018-06-28 11:15:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login true' is present
+
+2018-06-28 11:15:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login true' is present
+
+2018-06-28 11:15:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Basic Test cases/SelectStoreBasicForAllCases' successfully
+
+2018-06-28 11:15:59 - [TEST_STEP][PASSED] - setText: Text 'apple juic' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:15:59 - [MESSAGE][PASSED] - Text 'apple juic' is set on object 'Object Repository/Heb/input_q'
+
+2018-06-28 11:15:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-28 11:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Heb/button_Search' is clicked on
+
+2018-06-28 11:16:04 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ'
+
+2018-06-28 11:16:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/apples' is: 'Apple & Eve Organics 100% Apple Juice,3 PK - 6.75 OZ']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-28 11:11:09 - [TEST_SUITE][FAILED] - Search result: Test Cases/Basic Test cases/Search by SKU when the user is registered FAILED because (of) Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" title="Search" class="action search" disabled="">...</button> is not clickable at point (1122, 150). Other element would receive the click: <input id="search" type="text" name="q" value="" placeholder="What can we help you find?" class="input-text active" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" data-block="autocomplete-form">
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 257df3b4ca227c2a1fb8aa8dfef71441)]]></system-out>
+      <system-err><![CDATA[2018-06-28 11:11:09 - [TEST_SUITE][FAILED] - Search result: Test Cases/Basic Test cases/Search by SKU when the user is registered FAILED because (of) Unable to click on object 'Object Repository/Heb/button_Search' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" title="Search" class="action search" disabled="">...</button> is not clickable at point (1122, 150). Other element would receive the click: <input id="search" type="text" name="q" value="" placeholder="What can we help you find?" class="input-text active" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" data-block="autocomplete-form">
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-EUOG03KNFOQ', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 257df3b4ca227c2a1fb8aa8dfef71441)]]></system-err>
+   </testsuite>
+</testsuites>
