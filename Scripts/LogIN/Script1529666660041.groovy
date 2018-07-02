@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Basic Test cases/SelectStoreBasicForAllCases'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Heb/a_Log In (1)'))
+WebUI.click(findTestObject('Login true'))
 
 WebUI.waitForElementPresent(findTestObject('form'), 10)
 

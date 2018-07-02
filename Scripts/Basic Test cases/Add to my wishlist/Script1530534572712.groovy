@@ -19,3 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('LogIN'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Fruit'))
+
+WebUI.click(findTestObject('Asparagus'))
+
+WebUI.getElementLeftPosition(findTestObject('Add to wishlist'), FailureHandling.STOP_ON_FAILURE)
+
