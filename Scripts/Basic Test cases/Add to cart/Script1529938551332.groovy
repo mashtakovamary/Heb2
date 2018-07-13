@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Category L3'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Basic Test cases/Category L3'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Heb/span_Add to Cart (3)'))
 

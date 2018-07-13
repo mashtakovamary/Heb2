@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify that there is placeholder You have no Save for Later Lists with icon if user have no wishlists</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73063144-b9ee-4be1-a655-c583c2e30139</testCaseGuid>
+</TestCaseEntity>

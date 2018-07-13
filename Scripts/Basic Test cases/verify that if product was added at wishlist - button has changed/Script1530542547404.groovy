@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Fruit'))
 
 WebUI.click(findTestObject('Asparagus'))
 
-WebUI.click(findTestObject('Add to wishlist'))
+WebUI.click(findTestObject('Add to wishlist Asparagus and Artichokes'))
 
 WebUI.verifyElementPresent(findTestObject('box with Save for Later'), 7)
 

@@ -27,5 +27,5 @@ WebUI.click(findTestObject('Fruit'))
 
 WebUI.click(findTestObject('Asparagus'))
 
-WebUI.getElementLeftPosition(findTestObject('Add to wishlist'), FailureHandling.STOP_ON_FAILURE)
+WebUI.getElementLeftPosition(findTestObject('Add to wishlist Asparagus and Artichokes'), FailureHandling.STOP_ON_FAILURE)
 

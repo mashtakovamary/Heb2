@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify that List Details Page   page has a breadcrumbs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f840661-15ac-46a5-94c8-11cd5ed9950d</testCaseGuid>
+</TestCaseEntity>

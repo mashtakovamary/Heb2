@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that page has a header, favicon and title in Save for later page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85e73b4c-ff28-48eb-945c-615c3e2508c9</testCaseGuid>
+</TestCaseEntity>

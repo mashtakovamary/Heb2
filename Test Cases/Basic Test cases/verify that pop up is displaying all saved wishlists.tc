@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify that pop up is displaying all saved wishlists</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aca50237-674f-43bd-9346-e19e65632ce3</testCaseGuid>
+</TestCaseEntity>

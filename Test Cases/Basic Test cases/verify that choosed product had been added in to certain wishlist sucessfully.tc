@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify that choosed product had been added in to certain wishlist sucessfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e66a70bc-ec46-4bdd-90c3-6e46e8402271</testCaseGuid>
+</TestCaseEntity>

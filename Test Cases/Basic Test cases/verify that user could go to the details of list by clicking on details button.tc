@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify that user could go to the details of list by clicking on details button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26268ce7-5e76-49c1-ac64-929687aea490</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify that field for inputing wishlist name contains a placeholder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0211b30-9074-40f7-952d-0992003db010</testCaseGuid>
+</TestCaseEntity>

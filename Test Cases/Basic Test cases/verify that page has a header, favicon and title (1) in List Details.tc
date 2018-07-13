@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify that page has a header, favicon and title (1) in List Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8b3c08f-6868-4ce7-bc21-76143a4df7ad</testCaseGuid>
+</TestCaseEntity>

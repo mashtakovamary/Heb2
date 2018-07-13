@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify that there is placeholder There are no products in your list with icon if wishlist has no products2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1cd72e83-7afe-479a-b9ab-a9ed78764ad6</testCaseGuid>
+</TestCaseEntity>
